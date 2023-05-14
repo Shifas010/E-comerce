@@ -7,7 +7,7 @@ import AdminHome from '../components/admin/adminHome/adminHome'
 import ProductDetails from '../components/user/item/item'
 import Payment from '../components/user/payments'
 import MYCart from '../components/user/my-cart'
-import Signin from '../components/Authentication/Signin'
+import {Signin} from '../components/Authentication/contract/intex'
 
 function Router() {
   return (

@@ -5,19 +5,7 @@ import { useState } from 'react'
 import eyeOff from "../../../assets/eyeoff.svg";
 import eyes from "../../../assets/eye.svg"
 
-function SignUp () {
-  return (
-    <div>
-      <Form
-      header="SignUp"
-      body= {<SignupForm/>}
-      Subbutton={
-      <Subbutton
-      value="Login"/>}
-      />
-    </div>
-  )
-}
+
 
 export const  SignupForm =()=> {
   
@@ -248,4 +236,4 @@ const hideOff = (e) => {
 
 
 
-export default SignUp
+export default SignupForm
