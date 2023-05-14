@@ -1,0 +1,25 @@
+.main{
+    display: flex;
+    
+}.headerbody li {
+    list-style: none;
+    display: inline;
+    background-color:#ffff;
+    padding: 4px;
+}.headerbody span{
+    border-radius:20px;
+    padding: 4px;
+    margin: 9px;
+    border-left-color: blue;
+    border-right-color:rgb(229, 86, 110);
+    border-top-color: rgb(238, 93, 117);
+    border-bottom-color: blue;
+    border-width: 1px;
+}.searchbar{
+    padding: 4px;
+}@media only screen and (max-width: 600px){ 
+
+    .headerbody{
+        display:none;
+    }
+}

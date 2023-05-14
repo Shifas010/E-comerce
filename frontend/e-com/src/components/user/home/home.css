@@ -1,0 +1,9 @@
+.scrollbarH::-webkit-scrollbar{
+   display: none;
+ 
+} @media only screen and (max-width :600px){
+   .offerside{
+      display: none;
+   }
+  
+}   

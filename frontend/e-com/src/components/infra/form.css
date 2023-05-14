@@ -1,0 +1,20 @@
+.frame{
+    background-color: rgba(255, 255, 255);
+
+}.name{
+    background-color: rgb(255, 254, 254);
+    color:#000000;
+    
+
+}.placeholder{
+   position: absolute;
+   left: 15px;
+   top: 6px;  
+  
+}.inputgroup{
+    position: relative;
+}.icon{
+    position: absolute;
+    right: 15px;
+    top: 6px;
+}
